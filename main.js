@@ -108,4 +108,10 @@ class LeafletMap {
 
         this.updateLogDisplay();
     }
+
+    displayLogCount() {      
+        this.logCountElement.innerHTML = `: ${this.attendanceCountBNL}`;
+        this.logCount1Element.innerHTML = `: ${this.attendanceCountAS}`;
+        this.logCount2Element.innerHTML = `: ${this.attendanceCountDS}`;
+   }
 }
