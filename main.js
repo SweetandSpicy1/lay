@@ -112,6 +112,25 @@ class LeafletMap {
     displayLogCount() {      
         this.logCountElement.innerHTML = `: ${this.attendanceCountBNL}`;
         this.logCount1Element.innerHTML = `: ${this.attendanceCountAS}`;
-        this.logCount2Element.innerHTML = `: ${this.attendanceCountDS}`;
+        this.logCount2Element.innerHTML = ` : ${this.attendanceCountDS}`;
    }
+
+   dataBNL() {
+    this.addMarker(, '');
+    this.attendanceCount++; 
+    this.updateLogDisplay();
+}
+
+   dataAS() {
+    this.addMarker(, '');
+    this.attendanceCount++; 
+    this.updateLogDisplay();
+   }
+    
+   dataDS() {
+    this.addMarker(, '');
+    this.attendanceCount++; 
+    this.updateLogDisplay();
+   }
+
 }
