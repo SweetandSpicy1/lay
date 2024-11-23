@@ -144,3 +144,19 @@ class LeafletMap {
 }
 
 }
+const myMap = new LeafletMap('map', [, ], 18);
+
+
+
+myMap.addMarker(,, '');
+myMap.addMarker(,, '');
+myMap.addMarker(,, '');
+
+
+
+myMap.loadMarkersFromJson('applet.json');
+
+document.addEventListener('DOMContentLoaded', () => {
+    myMap.displayLogCount();
+    myMap.loadMarkersFromJson('applet.json');
+});
