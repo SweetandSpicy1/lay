@@ -13,5 +13,16 @@ class LeafletMap {
 
         this.loggedData = []; 
 
-    }
+        
+        this.btn = document.getElementById('btn');
+        this.btn1 = document.getElementById('btn1');
+        this.btn2 = document.getElementById('btn2');
+        this.btnclear = document.getElementById('btnclear');
+        this.logCountElement = document.getElementById('logCountBNL');
+        this.logCount1Element = document.getElementById('logCountAS');
+        this.logCount2Element = document.getElementById('logCountDS');
+        this.idContainer = document.getElementById('logContainer');
+
+}
+
 }
