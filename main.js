@@ -12,7 +12,6 @@ class LeafletMap {
         this.markers = [];
 
         this.loggedData = []; 
-
         
         this.btn = document.getElementById('btn');
         this.btn1 = document.getElementById('btn1');
